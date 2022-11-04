@@ -6,8 +6,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-   specPattern: 'cypress/integration/examples/*.js',
+   specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx,feature}',
     // specPattern : 'cypress/integration/practice_exercise/*.js',
-    screenshotsFolder : 'cypress/failures/screenshots'
+    screenshotsFolder : 'cypress/screenshots'
   },
 });

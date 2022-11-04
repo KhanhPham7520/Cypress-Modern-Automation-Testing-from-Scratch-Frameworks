@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pham Phan Nhat Khanh",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^10.6.0"
+  "devDependencies": {
+    "cypress": "^10.9.0"
   }
 }
