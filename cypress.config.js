@@ -11,3 +11,5 @@ module.exports = defineConfig({
     screenshotsFolder : 'cypress/screenshots'
   },
 });
+
+
