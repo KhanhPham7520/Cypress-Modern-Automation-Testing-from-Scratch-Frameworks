@@ -6,7 +6,6 @@ module.exports = defineConfig({
   projectId: 'wxjn6a',
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
       on('file:preprocessor', cucumber())
     },
    specPattern: 'cypress/integration/**/*.{js,jsx,ts,tsx,feature}',
