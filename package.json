@@ -1,0 +1,23 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/KhanhPham7520/Cypress_Automation_Framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhanhPham7520/Cypress_Automation_Framework/issues"
+  },
+  "homepage": "https://github.com/KhanhPham7520/Cypress_Automation_Framework#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
