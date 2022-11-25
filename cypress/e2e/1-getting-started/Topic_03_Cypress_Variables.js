@@ -17,5 +17,9 @@ describe('Test Contact Us Form Via Unit', () => {
 
     });
 
+    it.only('Validate properties of the Contact Us page', ()=>{
+        cy.visit("https://automationteststore.com/index.php?rt=content/contact");
+    })
+
 
 });
