@@ -10,4 +10,13 @@ describe('Test Contact Us Form Via Unit', () => {
           });
         });
 
+    it.only('Go to detail of the product [BeneFit Girl Meets Pearl]',()=>{
+            cy.visit("https://automationteststore.com/");
+            cy.get(".prdocutname").contains("BeneFit Girl Meets Pearl").click();
+
+            cy.get('.side_prd_list > li > .productname').each(($el, index) => {
+                cy.log("Index : "+index+ " : " + $el.text());
+            });
+    });
+
 });
